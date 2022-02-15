@@ -1,0 +1,12 @@
+.navbar{
+    background-color:lightpink;
+
+}
+.navbar-nav{
+    margin-left: auto;
+    background-color:lightpink;
+}
+
+.nav-item{
+    color: darkgray;
+}

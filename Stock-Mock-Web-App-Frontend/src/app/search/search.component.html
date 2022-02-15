@@ -1,0 +1,27 @@
+<div class="container">
+    <br>
+    <h2>Search Your Interested Stock ~ !</h2>
+
+    <div class="input-group mb-3">
+        <div class="col">
+            <input [formControl]="stateCtrl" class="form-control rounded-pill" type="search" placeholder = "Enter a stock name" [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+                    <mat-option *ngIf="isLoading" class="is-loading">
+                        <mat-spinner diameter="50"></mat-spinner>
+                    </mat-option>
+                    <ng-container *ngIf="!isLoading">
+                        <mat-option *ngFor="let state of autoComplete" [value]="state">
+                            <span style="font-weight: bold;">{{state.ticker.toUpperCase()}}</span> |
+                            <small>{{state.name}}</small>
+                        </mat-option>
+                    </ng-container>
+                </mat-autocomplete>
+        <br>
+        <button class="btn btn-outline-light text-dark border-1 ml-n5" type="button" (click)="getDetails()">
+            <i class="fa fa-search">OK</i>
+        </button>
+        </div>
+
+    </div>
+
+</div>

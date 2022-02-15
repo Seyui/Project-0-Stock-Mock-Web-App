@@ -1,0 +1,20 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+    place-items: center;
+}
+
+.form-control{
+    margin-top: 5%;
+    border-color: darkgray;
+}
+
+h2{
+    font-family: fantasy;
+    color: gray;
+}
+
+.fa{
+    font-family: fantasy;
+    color: gray;
+}

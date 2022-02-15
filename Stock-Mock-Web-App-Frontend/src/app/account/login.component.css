@@ -1,0 +1,41 @@
+.card {
+    background-image: url("../sample.png");
+    background-size: cover;
+    border-color: lightsalmon;
+    width: 400px;
+    height: 600px;
+    margin: auto auto;
+    float: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: fantasy;
+    color: gray;
+}
+
+label{
+    font-family: fantasy;
+    color: gray;
+}
+
+input{
+    background: transparent;
+}
+
+.btn-primary{
+    background: lightpink;
+}
+
+.btn-primary:hover{
+    background: palevioletred;
+}
+
+.btn-primary:active{
+    background: palevioletred;
+}
+
+a{
+    color:gray;
+}

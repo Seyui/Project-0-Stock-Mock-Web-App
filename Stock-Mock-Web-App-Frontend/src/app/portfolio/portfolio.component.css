@@ -1,0 +1,17 @@
+.card-ticker{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: x-large;
+    color: darkgray;
+}
+
+.card-subticker{
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: large;
+    color: black;
+}
+
+.cursor-type:hover {
+    cursor: pointer;
+}
